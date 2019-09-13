@@ -1,0 +1,1 @@
+create table processlist (process_id varchar(10),process_name varchar(30),creator_id varchar(15),process_code varchar(15),descrption varchar(75),created_date date);
