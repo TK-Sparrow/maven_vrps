@@ -1,0 +1,1 @@
+create Table commentAndRating(EmpID varchar(20),AdminID varchar(20),Empcomment varchar(60),rating number(2));
