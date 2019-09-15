@@ -1,0 +1,19 @@
+create table personaldetails(empid varchar2(10),fullname varchar(30),dob date,gender varchar(8),mobile number(12),email varchar(30),address varchar(100));
+
+create table workdetails(empid varchar(10),designation varchar(20),ctc number(10),currentlocation varchar(20),requiredlocation varchar(20),experience number(2),appliedjob varchar(10),skills varchar(100));
+
+create table projects(empid varchar(10),title varchar(20),startdate date,enddate date,description varchar(100));
+
+
+
+CREATE TABLE EDUCATIONDETAILS(EMPID VARCHAR(10),SCHOOLNAME VARCHAR(20),SCHOOLPERCENT NUMBER(2),SCHOOLPASSYEAR NUMBER(4),COLLEGENAME VARCHAR(20),COLLEGEPERCENT NUMBER(2),COLLEGEPASSYEAR NUMBER(4),ENGCOURSETYPE VARCHAR(20),ENGCOLLEGENAME VARCHAR(20),ENGPERCENT NUMBER(2),ENGPASSYEAR NUMBER(4),PGCOURSETYPE VARCHAR(20),PGCOLLEGENAME VARCHAR(20),PGPERCENT NUMBER(2),PGPASSYEAR NUMBER(4));
+
+
+create table applicationstatus(empid varchar(10),referenceid varchar(15),admin number(1) default 0,tr number(1) default 0,hr number(1) default 0);
+
+create Table commentAndRating(EmpID varchar(20),AdminID varchar(20),Empcomment varchar(60),rating number(2));
+
+create table users(USER_ID varchar(15),PASSWORD varchar(60),USER_DESIGNATION varchar(10));
+
+
+
